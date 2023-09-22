@@ -28,6 +28,10 @@ console.log(zoo);
 console.log(zoo.getAllAnimals());
 
 const zookeeper = new Zookeeper();
+
 zookeeper.feedAnimal(zebraName);
-zookeeper.feedAnimal(elephantName);
-zookeeper.feedAnimal(tigerName);
+// zookeeper.feedAnimal(elephantName);
+// zookeeper.feedAnimal(tigerName);
+
+const feedingLog = zookeeper.getFeedingLog();
+console.log(feedingLog);
