@@ -13,4 +13,7 @@ export class Elephant extends Animal {
     walk() {
         console.log(`${this.name} is walking.`);
     }
+    getName() {
+        return this.name;
+    }
 }

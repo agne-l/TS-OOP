@@ -20,4 +20,8 @@ export class Elephant extends Animal implements SleepAndWalk {
   walk() {
     console.log(`${this.name} is walking.`);
   }
+
+  getName() {
+    return this.name;
+  }
 }

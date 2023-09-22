@@ -20,4 +20,8 @@ export class Tiger extends Animal implements SwimAndHunt {
   hunt() {
     console.log(`${this.name} can hunt.`);
   }
+
+  getName() {
+    return this.name;
+  }
 }

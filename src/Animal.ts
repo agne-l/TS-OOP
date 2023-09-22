@@ -8,4 +8,6 @@ export abstract class Animal {
   }
 
   abstract makeSound(): void;
+
+  abstract getName(): string;
 }

@@ -22,4 +22,8 @@ export class Zebra extends Animal implements JumpAndRun {
   run() {
     console.log(`${this.name} can run.`);
   }
+
+  getName() {
+    return this.name;
+  }
 }

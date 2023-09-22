@@ -13,4 +13,7 @@ export class Tiger extends Animal {
     hunt() {
         console.log(`${this.name} can hunt.`);
     }
+    getName() {
+        return this.name;
+    }
 }

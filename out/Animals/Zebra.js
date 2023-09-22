@@ -14,4 +14,7 @@ export class Zebra extends Animal {
     run() {
         console.log(`${this.name} can run.`);
     }
+    getName() {
+        return this.name;
+    }
 }
